@@ -1,0 +1,30 @@
+[
+  {
+    "name":"FIDE World Chp.(W)",
+    "slug":"fide-world-championship-w-2021",
+    "img":"https://images.freeimages.com/images/large-previews/ddb/corn-field-2-1368926.jpg",
+    "status":1
+  },
+  {
+    "name":"Russian Team League",
+    "slug":"russian-team-league-2021",
+    "img":"https://images.freeimages.com/images/large-previews/6a5/dragon-fly-on-theriver-1394126.jpg",
+    "status":1
+  },
+  {
+    "name":"Russian Team League(W)",
+    "slug":"russian-team-league-w-2021",
+    "img":"https://images.freeimages.com/images/large-previews/035/young-golden-retriever-1404848.jpg",
+    "status":1
+  },
+  {
+    "name":"UkrainianU10 Chp",
+    "slug":"ukrainian-u10-chp-2021",
+    "status":0
+  },
+  {
+    "name":"LatvianChampionship",
+    "slug":"latvian-championship-2018",
+    "status":1
+  }
+]

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    app:cardBackgroundColor="#FEFFFE"
+    app:cardElevation="10dp">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_android_black_24dp"
+        ></ImageView>
+    <RelativeLayout
+        android:id="@+id/center"
+        android:layout_toRightOf="@id/img"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Russian Team League(W)"
+            android:textSize="20dp"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_below="@id/title"
+            android:id="@+id/slug"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:text="russian-team-league-w-2021"
+            android:textSize="10dp"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_below="@id/title"
+            android:id="@+id/dash"
+            android:layout_toRightOf="@+id/slug"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+
+            android:text="(4)"
+            android:layout_marginLeft="5dp"
+            android:textColor="#567ef2"
+            android:textSize="10dp"
+            >
+
+        </TextView>
+
+
+
+    </RelativeLayout>
+    <TextView
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:textColor="#567ef2"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"
+        android:id="@+id/year"
+        android:text="2020"
+        ></TextView>
+
+
+</RelativeLayout>
+
+</androidx.cardview.widget.CardView>
